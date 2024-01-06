@@ -1,0 +1,175 @@
+#list{
+    display: flex;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F6B17A;
+    /* background-color: #2D3250; */
+    font-size: 28px;
+    margin-top: 35px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+li.listitems{
+    margin-left: 13px;
+}
+a.tag1{
+    text-decoration: none;
+    color: #F6B17A;
+}
+a.tag1:hover{
+    color: #2D3250 ;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    margin: 20px 10px 0px 0px;
+    border-radius: 11px;
+    border: 2px inset #7077A1;
+}
+#heading1{
+    margin-left: 33px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2D3250;
+    font-size: 40px;
+}
+#description{
+    font-size: 20px;
+    /* font-weight: lighter; */
+}
+a.tag2{
+    text-decoration: none;
+    color: #2D3250;
+}
+a.tag2:hover{
+    color: #F6B17A;
+}
+#cakeitems{
+    font-size: 19px;
+    color: #F6B17A;
+}
+#heading2{
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #424769;
+    text-align: center;
+    background-color: #F6B17A;
+    padding: 10px 0px 10px 0px;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+.Cakes{
+    margin-top: 16px;
+    border-radius: 11px;
+    border: 2px inset #424769;
+}
+figcaption.caption{
+    color: #F6B17A;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    text-align: center;
+}
+#Cupcakes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#cupcakeitems{
+    font-size: 20px;
+    color: #7077A1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    line-height: 30px;
+}
+#img2{
+    margin: 50px 10px 0px 0px;
+    border-radius: 11px;
+    border: 2px inset #7077A1;
+}
+a.tag3{
+    color: #7077A1;
+    text-decoration: none;
+}
+a.tag3:hover{
+    color:aliceblue;
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color:beige;
+    }
+  }
+.Cookies{
+    margin-top: 16px;
+    border-radius: 11px;
+    border: 2px outset #F6B17A;
+  }
+  #footer{
+    background-color: #2D3250;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  #footertext{
+    color:#F6B17A;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  #Training{
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    color:#424769;
+    font-size: 35px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.contact-form {
+    /* max-width: 600px; */
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#F6B17A;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
